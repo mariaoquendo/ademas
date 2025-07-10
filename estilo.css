@@ -1,0 +1,666 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+   
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40%
+  
+}
+
+.logo span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a.active {
+  color: #007bff;
+}
+
+.nav-menu a:hover {
+  color: #007bff;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-campus {
+  background-color: #007bff;
+  color: white;
+  border: none;
+padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-acceder {
+  background-color: #28a745;
+  color: white;
+  border: none;
+padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sec2 img{
+    width: 100%;
+}
+.Sec3{
+  background-color: #000;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  height: 50%;
+  
+}
+.estrellas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+ flex-direction: column;
+  
+}
+h3{
+  color: #ff9900;
+  display: flex;
+  justify-content: center;
+  
+}
+p{
+  
+}
+.estrellita2 {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+ flex-direction: column;
+ 
+
+}
+
+.comunidad-devs {
+  background: #f9f9f9;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.comunidad-devs .contenido {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.comunidad-devs h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.comunidad-devs .subtitulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #16a085;
+  margin-bottom: 20px;
+}
+
+.comunidad-devs p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.comunidad-devs blockquote {
+  font-style: italic;
+  background: #ecf0f1;
+  padding: 20px;
+  border-left: 5px solid #16a085;
+  margin: 20px 0;
+}
+
+.comunidad-devs blockquote footer {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #7f8c8d;
+}
+
+.botones {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #16a085;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #138d75;
+}
+
+.btn-secundario {
+  background-color: #34495e;
+}
+
+.btn-secundario:hover {
+  background-color: #2c3e50;
+}
+
+
+
+
+
+.seccion-devs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+.contenido-texto {
+  flex: 1 1 55%;
+  padding-right: 20px;
+}
+
+.contenido-texto h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contenido-texto h2 {
+  font-size: 28px;
+  color: #00aef0;
+  margin-bottom: 20px;
+}
+
+
+
+
+blockquote footer {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #777;
+}
+
+.botones {
+  display: flex;
+
+  
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.btn-campus {
+  background-color: #00aef0;
+  color: white;
+}
+
+.btn-campus:hover {
+  background-color: #0090c0;
+}
+
+.btn-registro {
+  background-color: #00c48c;
+  color: white;
+}
+
+.btn-registro:hover {
+  background-color: #00a374;
+}
+
+.contenido-imagen {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.contenido-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pilares-comunidad {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.pilares-comunidad h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.pilares-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pilar {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.pilar:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5em;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.pilar h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.pilar p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.boton-campus {
+  margin-top: 40px;
+}
+
+.btn-accede {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-accede:hover {
+  background-color: #005fa3;
+}
+
+
+.cafeteria-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #ff9900, #ffcc66);
+  padding: 60px 30px;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.cafeteria-content {
+  flex: 1 1 500px;
+  max-width: 600px;
+}
+
+.cafeteria-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.cafeteria-content p {
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.btn-discord {
+  display: inline-block;
+  background-color: #5865F2;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-discord:hover {
+  background-color: #4752c4;
+}
+
+.cafeteria-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.cafeteria-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.staff-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.staff-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+
+.btn-reputacion {
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 12px 25px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reputacion:hover {
+  background-color: #005fa3;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.staff-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.staff-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.staff-card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.staff-card .title {
+  font-weight: bold;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.staff-card p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+
+.testimonios-section {
+  background-color: #d0d82d; 
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+.parece{
+  color: #d3cece;
+}
+.notiene{
+  color: #545151;
+}
+.testimonios-section h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.testimonios-section h2 {
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.testimonios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.testimonio {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 0.95em;
+  color: #444;
+}
+
+.testimonio strong {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #222;
+}
+
+.testimonio span {
+  font-size: 0.85em;
+  color: #666;
+}
+
+.btn-ver-mas {
+  display: inline-block;
+  background-color: #7fb981;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-mas:hover {
+  background-color: #3e8e41;
+}
+
+.ultimos-articulos {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.ultimos-articulos h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.ultimos-articulos .intro {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.articulos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.articulos-grid article {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: left;
+}
+
+.articulos-grid img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.articulos-grid h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.articulos-grid p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.ver-mas {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #cccccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.discord-btn {
+  background-color: #5865F2;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #999;
+}
+.loguitogatico{
+  width: 50%;
+}
