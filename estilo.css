@@ -1,14 +1,19 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
 .main-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 90px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-   
+
   display: flex;
   align-items: center;
   gap: 10px;
@@ -16,17 +21,13 @@
 
 .logo img {
   width: 40%
-  
 }
 
-.logo span {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #000;
-}
+
 
 .nav-menu {
   display: flex;
+  align-items: center;
   gap: 25px;
 }
 
@@ -54,7 +55,7 @@
   background-color: #007bff;
   color: white;
   border: none;
-padding: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -63,48 +64,59 @@ padding: 1rem;
   background-color: #28a745;
   color: white;
   border: none;
-padding: 1rem;
+  padding: 1rem;
   border-radius: 5px;
   cursor: pointer;
 }
-.sec2 img{
-    width: 100%;
+
+.sec2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img-sitio-ademass-20250707T173509Z-1-001/img-sitio-ademass/ademass_imagen.jpg);
+  background-size: cover;
 }
-.Sec3{
+
+.Sec3 {
   background-color: #000;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 70px;
-  height: 50%;
-  
+  height: 30vh;
+
 }
+
 .estrellas {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
   padding: 1rem;
- flex-direction: column;
-  
+  flex-direction: column;
+
 }
-h3{
+
+h3 {
   color: #ff9900;
   display: flex;
   justify-content: center;
-  
+
 }
-p{
-  
+
+.sec10 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(./img-sitio-ademass-20250707T173509Z-1-001/img-sitio-ademass/image\ \(12\).png);
 }
+
 .estrellita2 {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
   padding: 1rem;
- flex-direction: column;
- 
+  flex-direction: column;
+
 
 }
 
@@ -116,8 +128,8 @@ p{
 }
 
 .comunidad-devs .contenido {
-  max-width: 800px;
-  margin: auto;
+  /*  max-width: 800px; */
+  /*  margin: auto; */
   text-align: center;
 }
 
@@ -131,13 +143,13 @@ p{
   font-size: 18px;
   font-weight: bold;
   color: #16a085;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .comunidad-devs p {
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .comunidad-devs blockquote {
@@ -145,7 +157,7 @@ p{
   background: #ecf0f1;
   padding: 20px;
   border-left: 5px solid #16a085;
-  margin: 20px 0;
+
 }
 
 .comunidad-devs blockquote footer {
@@ -187,19 +199,24 @@ p{
 
 .seccion-devs {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: auto;
+ 
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  /* padding: 40px 20px; */
+  /*  max-width: 1200px; */
+  /* margin: auto; */
   font-family: 'Segoe UI', sans-serif;
   background-color: #ffffff;
 }
 
 .contenido-texto {
-  flex: 1 1 55%;
-  padding-right: 20px;
+ /*  flex: 1 1 55%;
+  padding-right: 20px; */
+  width: 50%;  
+ 
+  padding-left: 1rem;
+
 }
 
 .contenido-texto h1 {
@@ -226,13 +243,13 @@ blockquote footer {
 .botones {
   display: flex;
 
-  
+
   flex-wrap: wrap;
 }
 
 .btn {
   text-decoration: none;
-  padding: 12px 24px;
+
   border-radius: 25px;
   font-weight: bold;
   transition: background 0.3s ease;
@@ -258,18 +275,19 @@ blockquote footer {
 }
 
 .contenido-imagen {
-  flex: 1 1 40%;
+  width: 50%;
   text-align: center;
 }
 
 .contenido-imagen img {
-  max-width: 100%;
+  width: 70%;
   height: auto;
   border-radius: 10px;
 }
 
 .pilares-comunidad {
-  padding: 1rem;
+  width: 100%;
+  
   background-color: #f9f9f9;
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -282,18 +300,28 @@ blockquote footer {
 }
 
 .pilares-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+/*   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
   gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+  /*   max-width: 1200px;
+  margin: 0 auto; */
 }
-
+.pilares{
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  justify-content: center;
+}
 .pilar {
+  width: 25%;
   background: white;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -319,7 +347,10 @@ blockquote footer {
 }
 
 .boton-campus {
-  margin-top: 40px;
+ height: 20vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .btn-accede {
@@ -340,18 +371,24 @@ blockquote footer {
 
 .cafeteria-section {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(135deg, #ff9900, #ffcc66);
-  padding: 60px 30px;
+
   color: #fff;
   font-family: 'Arial', sans-serif;
 }
 
 .cafeteria-content {
-  flex: 1 1 500px;
-  max-width: 600px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+  /* max-width: 600px; */
+}
+.cafeteria-content-text{
+  width: 70%;
 }
 
 .cafeteria-content h2 {
@@ -381,7 +418,7 @@ blockquote footer {
 }
 
 .cafeteria-image {
-  flex: 1 1 300px;
+  width: 50%;
   text-align: center;
 }
 
@@ -391,7 +428,7 @@ blockquote footer {
 }
 
 .staff-section {
-  padding: 60px 20px;
+
   background-color: #f4f4f4;
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -407,7 +444,7 @@ blockquote footer {
 .btn-reputacion {
   display: inline-block;
   margin-bottom: 40px;
-  padding: 12px 25px;
+
   background-color: #0077cc;
   color: white;
   text-decoration: none;
@@ -424,15 +461,15 @@ blockquote footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  max-width: 1200px;
+  /*  max-width: 1200px; */
   margin: 0 auto;
 }
 
 .staff-card {
   background: white;
-  padding: 20px;
+  padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
 
@@ -444,7 +481,7 @@ blockquote footer {
 }
 
 .staff-card h3 {
-  margin: 10px 0 5px;
+
   color: #333;
 }
 
@@ -461,17 +498,20 @@ blockquote footer {
 
 
 .testimonios-section {
-  background-color: #d0d82d; 
+  background-color: #d0d82d;
   padding: 80px 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
 }
-.parece{
+
+.parece {
   color: #d3cece;
 }
-.notiene{
+
+.notiene {
   color: #545151;
 }
+
 .testimonios-section h4 {
   font-size: 1.2em;
   color: #333;
@@ -489,15 +529,15 @@ blockquote footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto 40px;
+  /*  max-width: 1200px; */
+  /*  margin: 0 auto 40px; */
 }
 
 .testimonio {
   background-color: white;
-  padding: 25px;
+  padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-size: 0.95em;
   color: #444;
 }
@@ -518,7 +558,7 @@ blockquote footer {
   display: inline-block;
   background-color: #7fb981;
   color: white;
-  padding: 12px 30px;
+
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -544,7 +584,7 @@ blockquote footer {
 .ultimos-articulos .intro {
   font-size: 1em;
   color: #666;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 .articulos-grid {
@@ -557,7 +597,7 @@ blockquote footer {
 .articulos-grid article {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   padding: 15px;
   text-align: left;
@@ -581,17 +621,18 @@ blockquote footer {
 }
 
 .ver-mas {
-  margin-top: 30px;
+  margin-top: 1rem;
 }
 
 .btn {
   background-color: #0073e6;
   color: white;
-  padding: 10px 25px;
+
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
 }
+
 .footer {
   background-color: #1a1a1a;
   color: #f0f0f0;
@@ -604,8 +645,8 @@ blockquote footer {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+  /*  max-width: 1200px;
+  margin: 0 auto; */
 }
 
 .footer-section {
@@ -649,7 +690,7 @@ blockquote footer {
 .discord-btn {
   background-color: #5865F2;
   color: white;
-  padding: 6px 12px;
+
   border-radius: 5px;
   font-size: 14px;
   text-decoration: none;
@@ -657,10 +698,54 @@ blockquote footer {
 
 .footer-bottom {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 1rem;
   font-size: 13px;
   color: #999;
 }
-.loguitogatico{
+
+.loguitogatico {
   width: 50%;
+}
+
+
+
+@media (max-width: 600px) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 60%;
+  }
+
+
+  .nav-menu {
+    flex-direction: row;
+    gap: 25px;
+    margin: 0;
+  }
+
+  .header-buttons {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .btn-campus,
+  .btn-acceder {
+    width: auto;
+    padding: 1rem;
+  }
 }
