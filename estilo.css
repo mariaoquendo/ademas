@@ -748,4 +748,85 @@ blockquote footer {
     width: auto;
     padding: 1rem;
   }
+  .seccion-devs{
+    flex-direction: column;
+  }
+  .pilares-comunidad{
+    flex-direction: column;
+  } 
+  .contenido-imagen img{
+    width: 100%;
+  }
+  /* Estilos base (pantallas grandes) */
+.seccion-devs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
 }
+
+.contenido-texto {
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.contenido-texto h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contenido-texto h2 {
+  font-size: 28px;
+  color: #00aef0;
+  margin-bottom: 20px;
+}
+
+
+  .seccion-devs {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contenido-texto {
+    width: 80%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contenido-texto h1 {
+    font-size: 18px;
+  }
+
+  .contenido-texto h2 {
+    font-size: 24px;
+  }
+  .contenido-texto {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .contenido-texto h1 {
+    font-size: 16px;
+  }
+
+  .contenido-texto h2 {
+    font-size: 20px;
+  }
+  .pilares{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  
+  }
+  .pilar{
+    width: 100%;
+  }
+  }
+
+
+  
+
+
